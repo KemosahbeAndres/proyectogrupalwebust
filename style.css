@@ -1,13 +1,342 @@
 * {
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
-body {
-    background-image: url("fondo.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-div{
-    min-height: 100px;
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+body>div {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 66.66%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-title {
+  text-align: center;
+  margin: 80px auto;
+  margin-top: 50px;
+}
+
+#menu {
+  background-color: rgba(21, 39, 49, 1);
+  overflow: hidden;
+  width: 100vw;
+  min-height: 120px;
+  position: sticky;
+  top: 0;
+  z-index: 1010;
+  border-bottom: 1px solid black;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu>* {
+  float: left;
+}
+
+.menu>*:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.menu-brand {
+  width: 25%;
+}
+
+.menu-brand img {
+  width: 100%;
+}
+
+.menu-links {
+  width: 75%;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+}
+
+.menu-links th a {
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.menu-links th:hover a {
+  transition: color 200ms;
+  color: #787878;
+  cursor: pointer;
+}
+
+#personajes {
+  background: rgb(24, 172, 194);
+  background: linear-gradient(90deg, rgb(24, 172, 194) 0%, rgb(28, 138, 194) 100%);
+  color: white;
+  min-height: 100px;
+  clear: both;
+}
+
+.card {
+  margin-bottom: 15%;
+  margin-top: 5%;
+  clear: both;
+  text-align: justify;
+}
+
+.card:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.card>.card-img {
+  width: 25%;
+  float: left;
+}
+
+.card>.card-content {
+  max-width: 75%;
+  float: left;
+}
+
+.card-img {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-content {
+  float: left;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+}
+
+.card-descimg {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-descimg img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url('/img/zelda-background.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  text-align: left;
+}
+
+.banner-content {
+  position: absolute;
+  left: 16.66%;
+  top: 20%;
+  text-align: left;
+  color: #000000;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+}
+
+.banner-content .button {
+  background-color: #ff9900;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 2em;
+  border-radius: 4px;
+  margin: auto;
+  text-align: center;
+}
+
+.zelda-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#comentarios {
+  background: white;
+}
+
+.comment-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.comment-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group>*:nth-child(even) {
+  margin-top: 10px;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+.submit-button {
+  background-color: #ff9900;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #e68a00;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comments>card:hover {
+  background-color: #cccccc;
+}
+
+.comment {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.comment:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.comment>* {
+  float: left;
+}
+
+.comment-img {
+  width: 16.66%;
+}
+
+.comment-avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+
+.comment-content {
+  width: 83.3%;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.comment-text {
+  margin: 0;
+}
+
+#footer {
+  background-color: #1a1a1a;
+  color: white;
+  clear: both;
+}
+
+#descripcion {
+  background-color: rgba(21, 39, 49, 1);
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.foot-table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.foot-table ol,
+.foot-table ul {
+  display: table;
+  list-style-type: disclosure-closed;
+}
+
+td * {
+  margin: auto;
+  height: 10%;
 }

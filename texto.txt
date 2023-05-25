@@ -1,0 +1,24 @@
+"Explora y descubre un mundo lleno de aventuras en The Legend of Zelda: Breath of the Wild, una nueva saga que rompe los esquemas de la aclamada serie. Viaja a través de praderas y bosques, y alcanza cimas de montañas mientras descubres cómo cayó en la ruina el reino de Hyrule en esta emocionante aventura al aire libre"
+
+resumen historia:
+"Sin reino. Sin recuerdos. Después de un letargo que ha durado 100 años, Link se despierta solo en un mundo que ya no recuerda. Ahora, el héroe legendario debe explorar ese extenso y misterioso mundo y recuperar sus recuerdos antes de que Hyrule esté perdido para siempre.
+
+Armado únicamente con lo que encuentre a su paso, Link emprenderá una aventura para buscar respuestas y obtener los recursos que necesita para sobrevivir."
+
+gameplay:
+"Breath of the Wild presenta un vasto mundo abierto que Link puede explorar, dandole al jugador una sensacion de libertad y exploración fascinante. Es el primer juego en la saga con un mundo así, y aunque es cierto que juegos anteriores han tenido mundos muy amplios, siempre presentaban limites a comparacion."
+
+Personajes:
+Link
+"Es el protagonista. Despues de ser despertado por la voz de la Princesa Zelda, su aventura comienza en la cual debe intentar recuperar sus memorias, su fuerza y la habilidad para derrotar a Calamity Ganon."
+imagen
+https://static.wikia.nocookie.net/zelda/images/8/83/Artwork_Link_con_arco_BotW.png/revision/latest/scale-to-width-down/200?cb=20160620124132&path-prefix=es
+
+Zelda:
+"Es la princesa del Reino de Hyrule. Desde pequeña ha estado interesada por la investigacion. Esto eventualmente se transformo en una pasion con el descubrimiento de los Guardianes y las Bestias Divinas."
+imagen
+https://static.wikia.nocookie.net/zelda/images/9/96/Princesa_Zelda_BotW.png/revision/latest/scale-to-width-down/220?cb=20210114023353&path-prefix=es
+
+Kass:
+"Se dedica a componer y cantar canciones al son de su acordeón sobre las leyendas de las distintas áreas de Hyrule, y que puede ser encontrado en variops lugares del mismo."
+https://static.wikia.nocookie.net/zelda/images/6/66/Nyel_Artwork_BotW.png/revision/latest/scale-to-width-down/350?cb=20190917011721&path-prefix=es

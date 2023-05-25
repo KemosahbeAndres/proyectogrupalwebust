@@ -1,23 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Titulo</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sitio</title>
+  <!--<link rel="stylesheet" href="reset.css">-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <div id="header">
-        <h1>Wiki - The legend of zelda</h1>
+
+  <!-- ELIJAN PONIENDO SU NOMBRE -->
+
+  <!-- SECCION MENU -->
+  <div id="menu">
+    <div class="container">
+      <div class="menu">
+        <div class="menu-brand"><img src="/img/logo.png" alt=""></div>
+        <table class="menu-links">
+          <tr>
+            <th>
+              <a href="#banner">Inicio</a>
+            </th>
+            <th>
+              <a href="#descripcion">Descripcion</a>
+            </th>
+            <th>
+              <a href="#personajes">Personajes</a>
+            </th>
+            <th>
+              <a href="#comentarios">Comentarios</a>
+            </th>
+          </tr>
+        </table>
+      </div>
     </div>
-    <div id="content">
-        <ul>
-            <li>Historia</li>
-            <li>Objetivo</li>
-            <li>Personajes</li>
-        </ul>
+  </div>
+
+
+  <!-- SECCION BANNER => GERALD -->
+  <div id="banner" class="banner">
+    <div class="banner-content">
+      <h1>¡Bienvenido, Echa un vistaso!</h1>
+      <p>Explora nuestro contenido y rellenate de informacion</p>
+      <a href="#" class="button">Ver más</a>
     </div>
-    <div id="footer">
+    <!--<img src="zelda-image.jpg" alt="Imagen de Zelda" class="zelda-image">-->
+  </div>
+
+  <!-- SECCION  DESCRIPCION -->
+  <div id="descripcion">
+    <div class="container">
+      <h1 class="container-title">Descripcion</h1>
+      <p>Explora y descubre un mundo lleno de aventuras en The Legend of Zelda: Breath of the Wild, una nueva saga que
+        rompe los esquemas de la aclamada serie. Viaja a través de praderas y bosques, y alcanza cimas de montañas
+        mientras descubres cómo cayó en la ruina el reino de Hyrule en esta emocionante aventura al aire libre.
+      <div class="card">
+        <div class="card-descimg">
+          <img src="/img/zelda-botw-logo.png" alt="">
+        </div>
+      </div>
+      </p>
+    </div>
+  </div>
+
+  <!-- SECCION PERSONAJES => ANDRES -->
+  <div id="personajes">
+
+    <div class="container">
+
+      <h1 class="container-title">Personajes</h1>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="/img/link.webp" alt="">
+        </div>
+        <div class="card-content">
+          <h3>Link</h3>
+          <p>Es el protagonista. Despues de ser despertado por la voz de la Princesa Zelda, su aventura comienza en la
+            cual debe intentar recuperar sus memorias, su fuerza y la habilidad para derrotar a Calamity Ganon.</p>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <div class="card-content">
+          <h3>Zelda</h3>
+          <p>Es la princesa del Reino de Hyrule. Desde pequeña ha estado interesada por la investigacion. Esto
+            eventualmente se transformo en una pasion con el descubrimiento de los Guardianes y las Bestias Divinas.
+          </p>
+        </div>
+        <div class="card-img">
+          <img src="/img/zelda.webp" alt="">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="/img/kass.webp" alt="">
+        </div>
+        <div class="card-content">
+          <h3>Kass</h3>
+          <p>Se dedica a componer y cantar canciones al son de su acordeón sobre las leyendas de las distintas áreas
+            de
+            Hyrule, y que puede ser encontrado en variops lugares del mismo.</p>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+
+
 
     </div>
+  </div>
+
+
+  <!-- SECCION FORMULARIO COMENTARIOS -->
+  <section id="comentarios" class="comment-section">
+    <div class="container">
+      <h2>Deja tu comentario</h2>
+      <form class="comment-form">
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comentario:</label>
+          <textarea id="comment" name="comment" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="zfav"> Cual es tu Zelda favorito?: </label>
+          <select name=" Zelda favorito" id="zfav" required>
+            <option value="" selected>Selecciona uno de la lista</option>
+            <option value="ww">Ocarina of Time</option>
+            <option value="ww">Majora's Mask</option>
+            <option value="ww">Wind Waker</option>
+            <option value="tp">Twilight Princess</option>
+            <option value="ss">Skyward Sword</option>
+            <option value="botw">Breath of the Wild</option>
+            <option value="totk">Tears of the Kingdom</option>
+          </select>
+        </div>
+        <button type="submit" class="submit-button">Publicar comentario</button>
+      </form>
+      <div class="comments">
+        <div class="comment">
+          <div class="comment-img">
+            <div class="comment-avatar"></div>
+          </div>
+          <div class="comment-content">
+            <h4 class="comment-author">Andres</h4>
+            <p class="comment-text">¡Que buen contenido amigo.</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="comment-img">
+            <div class="comment-avatar"></div>
+          </div>
+          <div class="comment-content">
+            <h4 class="comment-author">Juan</h4>
+            <p class="comment-text">Muy útil, gracias por compartirlo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECCION FOOTER => BENJAMIN -->
+  <div id="footer">
+    <div class="container">
+      <table class="foot-table">
+        <tr>
+          <td>
+            <img src="/img/redes-sociales.png" alt="redes-sociales" height="70" width="70">
+          </td>
+          <td>
+            <ul>
+              <li><a href="#">Aviso Legal</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
+              <li><a href="#">Politica de Cookies</a></li>
+              <li><a href="#">Política de Calidad</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <ol>
+              <li><a href="#banner">Inicio</a></li>
+              <li><a href="#descripcion">Descripcion</a></li>
+              <li><a href="#personajes">Personajes</a></li>
+              <li><a href="#comentarios">Comentarios</a></li>
+            </ol>
+          </td>
+          <td>
+            <img class="logo" src="/img/logo.png" alt="" width="150px">
+          </td>
+        </tr>
+      </table>
+      <p class="copyright">&copy; Todos los derechos reservados 2023.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 </body>
+
 </html>
