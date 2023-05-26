@@ -1,0 +1,6 @@
+amarillo pastel  => #f9f4ce
+celeste          => #97c8d9
+verde            => #316570
+verde oscuro     => #193339
+verde pastel     => #9fc184
+cafe             => #6c5f32
